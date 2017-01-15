@@ -45,3 +45,7 @@ section {
 p {
 	padding: 25px 15px 5px;
 }
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
