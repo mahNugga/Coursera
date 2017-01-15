@@ -18,3 +18,26 @@ section {
 	position:relative; 	
 	margin: 10px;
 }
+
+@media(min-width:992px){
+	section{
+		width:33%
+		float:left;
+	}
+		
+}
+@media (min-width:768px) and(max-width:991px){
+	section{
+		float:left;
+		width:50%;
+	}
+	#Su{
+		width :100%;
+	}
+		
+}
+@media(max-width:767px){
+	section{
+		width: 90%;
+	}
+}
