@@ -1,12 +1,12 @@
 /*  CSS para mejoras visuales*/
 
 h1{
-	boxing-size:border-box;
+	box-sizing:border-box;
 	
 }
 
 h3 {
-	border-size:border-box;
+	box-sizing:border-box;
  
 }
 
