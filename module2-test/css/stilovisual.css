@@ -1,0 +1,20 @@
+/*  CSS para mejoras visuales*/
+
+h1{
+	border: 1px solid black;
+	margin: 60px;
+}
+
+h3 {
+	margin: 0px;
+	border-width: 1px 1px 2px 1px solid rgb(1,1,1);
+}
+
+section {
+	margin: 10px;
+	border: 2px solid rgb(1,1,1);
+}
+
+p {
+	padding: 10px
+}
