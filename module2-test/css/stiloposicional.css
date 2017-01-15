@@ -2,6 +2,19 @@
  de elementos html*/
 
 h1 {
-margin: auto;
-text-align: center;
+	margin: 50px;
+	text-align: center;
+
+}
+
+h3 {
+	margin: 0px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+section {
+	position:relative; 	
+	margin: 10px;
 }
