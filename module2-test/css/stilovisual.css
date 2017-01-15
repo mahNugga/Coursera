@@ -1,20 +1,47 @@
 /*  CSS para mejoras visuales*/
 
 h1{
-	border: 1px solid black;
-	margin: 60px;
+	boxing-size:border-box;
+	
 }
 
 h3 {
+	border-size:border-box;
+ 
+}
+
+.sectiontitle {
 	margin: 0px;
-	border-width: 1px 1px 2px 1px solid rgb(1,1,1);
+	width:150px;
+	text-align:center;
+	border: solid rgb(1,1,1);
+	border-width: 1px 1px 2px 1px;
+	
+} 
+
+.one {
+	background: #ff9999;
+}
+
+.two {
+	background: #ff3333;
+	color: #ffffff;
+}
+
+.tres{
+	background: #ffcc80
+}
+.coloqial{
+	text-transform: capitalize;
 }
 
 section {
-	margin: 10px;
 	border: 2px solid rgb(1,1,1);
+	box-sizing: border-box;
 }
-
+.gray{
+	background: #b3b3b3;
+}
 p {
-	padding: 10px
+	padding: 25px 15px 5px;
 }
