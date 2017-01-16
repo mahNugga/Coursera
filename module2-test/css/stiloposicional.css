@@ -15,12 +15,17 @@ h3 {
 }
 
 section {
+	box-sizing:borderbox;
 	position:relative; 	
-	margin: 10px;
+	margin: 20px;
 }
 
 @media(min-width:992px){
 	section{
+<<<<<<< HEAD
+		width:30%;
+=======
+>>>>>>> 24f757d2dc470ed5a6aa61d77b59490d8b98f73b
 		float:left;
 		width:32%;
 		
@@ -30,10 +35,11 @@ section {
 @media (min-width:768px) and (max-width:991px){
 	section{
 		float:left;
-		width:50%;
+		width:45%;
 	}
 	#Su{
-		width :100%;
+		clear:both;
+		width :95%;
 	}
 		
 }
